@@ -4,7 +4,7 @@
 
 app:
   id: ""                          # 由 add 自动写入
-  name: Arrow Enigma
+  name: Riddle Shot
   slogan: 在气球与线索之间，找出你是谁
   description: |
     VR 解谜体验：用手上的巨弩打爆气球，收集六条线索，
