@@ -170,8 +170,8 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: com.TexaStudio.ArrowEnigma2026
-    Standalone: com.TexaStudio.ArrowEnigma2026
+    Android: com.TexaStudio.RiddleShot
+    Standalone: com.TexaStudio.RiddleShot
   buildNumber:
     Standalone: 0
     VisionOS: 0
