@@ -1,4 +1,4 @@
-# PICO VibeLab 发布配置
+﻿# PICO VibeLab 发布配置
 # 流程：pico-release-cli-cn init → add → git push → commit → push --wait
 # add 会把 app.id 写回这里；素材路径相对于本文件所在目录。
 
@@ -16,7 +16,8 @@ app:
   icon: store/icon.png           # 1024x1024，<=4MB
   landscape: store/landscape.jpg # 2560x1440，<=5MB
   detail_images:                  # 1~7 张，2560x1440，<=5MB
-    - store/detail-1.png
+    - store/detail-1.jpg
+    - store/detail-2.jpg
   videos:                         # 最多 3 个，MP4 <=100MB
     - file: store/demo.mp4
       cover: store/demo-cover.png
@@ -26,7 +27,7 @@ version:
   notes: 首个版本
 
 build:
-  repo_url: https://github.com/yyy181818/Arrow-Enigma.git
+  repo_url: https://github.com/yyy181818/Arrow-Enigma-Android.git
   repo_visibility: public         # public | private
   tech_stack: unity
   features:                       # 说明你的应用用到哪些能力
