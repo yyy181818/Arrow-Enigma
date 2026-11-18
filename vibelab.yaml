@@ -13,13 +13,13 @@ app:
   tags:
     - ""                          # TODO: 填 1 个平台预设内容标签
   category: game
-  icon: assets/icon.png           # 1024x1024，<=4MB
-  landscape: assets/landscape.png # 2560x1440，<=5MB
+  icon: store/icon.png           # 1024x1024，<=4MB
+  landscape: store/landscape.jpg # 2560x1440，<=5MB
   detail_images:                  # 1~7 张，2560x1440，<=5MB
-    - assets/detail-1.png
+    - store/detail-1.png
   videos:                         # 最多 3 个，MP4 <=100MB
-    - file: assets/demo.mp4
-      cover: assets/demo-cover.png
+    - file: store/demo.mp4
+      cover: store/demo-cover.png
 
 version:
   name: 1.0.0
