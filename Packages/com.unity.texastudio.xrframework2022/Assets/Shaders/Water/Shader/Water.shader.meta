@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b1d1ed131ffb9a34b87d2c379665b43e
+timeCreated: 1493863717
+licenseType: Store
+ShaderImporter:
+  defaultTextures:
+  - _WaterAlphaTexture: {fileID: 2800000, guid: c7de24140a3032b4a83cd19765243ff1,
+      type: 3}
+  - _WaterColorTexture: {fileID: 2800000, guid: f7d3050d455a9304db1b5516a1946870,
+      type: 3}
+  - _Normal_A_Texture: {fileID: 2800000, guid: 90db41efd7a669b4d83e6bf2dfb8aa40, type: 3}
+  - _Normal_B_Texture: {fileID: 2800000, guid: e0078a0cb0d66a34d9e05da1dadad784, type: 3}
+  - _CausticsTexture: {fileID: 2800000, guid: 70b68b0102c2ad2418f47b9c6e1aa5bd, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1 @@
+{"ChapterName":"EntranceStage","Order":0,"MaxStayTime":300,"AreaList":[{"AreaName":"EntranceStage_Area1","Order":1,"ContentAreaVertices":[{"X":-1.0,"Z":-0.5},{"X":1.0,"Z":-0.5},{"X":1.0,"Z":0.5},{"X":-1.0,"Z":0.5}],"SafetyBoundaryVertices":[{"X":-2.0,"Z":-1.0},{"X":2.0,"Z":-1.0},{"X":2.0,"Z":1.0},{"X":-2.0,"Z":1.0}]}]}

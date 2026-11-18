@@ -1,0 +1,25 @@
+{
+  "name": "HoudiniEngineUnity",
+  "rootNamespace": "",
+  "references": [
+    "Unity.Splines",
+    "Unity.Mathematics"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "VIBELAB_DISABLE_TOOL_ASM"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.unity.splines",
+      "expression": "2.1.0",
+      "define": "UNITY_SPLINES_INSTALLED"
+    }
+  ],
+  "noEngineReferences": false
+}

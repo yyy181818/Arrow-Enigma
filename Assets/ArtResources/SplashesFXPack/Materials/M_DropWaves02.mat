@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7388074976893393748
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 2
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_DropWaves02
+  m_Shader: {fileID: 4800000, guid: 53c7d7b54f4e5334690dd57ba952a09f, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _BLEND_ADDITIVE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_39CE3578:
+        m_Texture: {fileID: 2800000, guid: 19a4fdfe9665e4a46b31cc7ce003bf3a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_B96E8F2B:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 19a4fdfe9665e4a46b31cc7ce003bf3a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 19a4fdfe9665e4a46b31cc7ce003bf3a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VOMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VOTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AlphaCutoff: 0.5
+    - _AlphaStrength: 1
+    - _AlphaTest: 0
+    - _BaseDetailToggle: 0
+    - _BaseRtoA: 0
+    - _BaseUVX: 0
+    - _BaseUVY: 0
+    - _Blend: 2
+    - _BlendOp: 0
+    - _Brightness: 1
+    - _BumpScale: 1
+    - _ClampRepeat: 0
+    - _ColorProcessEnable: 0
+    - _Contrast: 1
+    - _Cull: 2
+    - _CullMode: 0
+    - _CustomDissolveValue: 0
+    - _CustomDistortionStrength: 0
+    - _CustomMainOffset: 0
+    - _CustomMaskOffset: 0
+    - _CustomPolarOffset: 0
+    - _Cutoff: 0.5
+    - _Dispersion: 256
+    - _DissolveColorToggle: 0
+    - _DissolveCustomPolarOffset: 0
+    - _DissolveDetailToggle: 0
+    - _DissolveEnable: 0
+    - _DissolveHardness: 0
+    - _DissolvePolarEnable: 0
+    - _DissolvePolarUOffset: 0
+    - _DissolvePolarVOffset: 0
+    - _DissolveRotation: 0
+    - _DissolveRtoA: 0
+    - _DissolveUMirror: 0
+    - _DissolveUVX: 0
+    - _DissolveUVY: 0
+    - _DissolveVMirror: 0
+    - _DissolveValue: 0
+    - _DissolveWidth: 0
+    - _DistortionCustomPolarOffset: 0
+    - _DistortionDetailToggle: 0
+    - _DistortionEnable: 0
+    - _DistortionPolarEnable: 0
+    - _DistortionPolarUOffset: 0
+    - _DistortionPolarVOffset: 0
+    - _DistortionRotation: 0
+    - _DistortionRtoA: 0
+    - _DistortionUMirror: 0
+    - _DistortionUStrength: 0
+    - _DistortionUVX: 0
+    - _DistortionUVY: 0
+    - _DistortionVMirror: 0
+    - _DistortionVStrength: 0
+    - _DstBlend: 1
+    - _EnvironmentReflections: 1
+    - _FresnelEnable: 0
+    - _FresnelPower: 0
+    - _FresnelScale: 0
+    - _FresneltoA: 0
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _GrayScale: 0
+    - _HueOffset: 0
+    - _InvFade: 1
+    - _InvFresnel: 0
+    - _InvFresnelScale: 0
+    - _MainPolarEnable: 0
+    - _MaskColorToggle: 0
+    - _MaskCustomPolarOffset: 0
+    - _MaskDetailToggle: 0
+    - _MaskEnable: 0
+    - _MaskPolarEnable: 0
+    - _MaskPolarUOffset: 0
+    - _MaskPolarVOffset: 0
+    - _MaskRotation: 0
+    - _MaskRtoA: 0
+    - _MaskStrength: 1
+    - _MaskUMirror: 0
+    - _MaskUVX: 0
+    - _MaskUVY: 0
+    - _MaskVMirror: 0
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _Offset: 0
+    - _PolarUOffset: 0
+    - _PolarVOffset: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Remap: 0
+    - _Rotation: 0
+    - _Saturation: 0
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SoftParticle: 1
+    - _SoftParticles: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilFail: 0
+    - _StencilPass: 0
+    - _StencilToggle: 0
+    - _Surface: 0
+    - _UClamp: 0
+    - _UMirror: 0
+    - _VClamp: 0
+    - _VMirror: 0
+    - _VODetailToggle: 0
+    - _VOMaskDetailToggle: 0
+    - _VOMaskRotation: 0
+    - _VOMaskRtoA: 0
+    - _VOPower: 0
+    - _VORotation: 0
+    - _VORtoA: 0
+    - _VOStrength: 0
+    - _VOUVX: 0
+    - _VOUVY: 0
+    - _VertexMaskEnable: 0
+    - _VertexOffsetEnable: 0
+    - _VoMaskUClamp: 0
+    - _VoMaskUMirror: 0
+    - _VoMaskVClamp: 0
+    - _VoMaskVMirror: 0
+    - _VoUClamp: 0
+    - _VoUMirror: 0
+    - _VoVClamp: 0
+    - _VoVMirror: 0
+    - _WorkflowMode: 1
+    - _WorldMask: 0
+    - _WorldVerticalMask: -10
+    - _WorldVerticalMaskIntense: 1
+    - _ZTest: 4
+    - _ZWrite: 0
+    m_Colors:
+    - Color_DB909D0B: {r: 0.7688934, g: 0.9995615, b: 1.3350786, a: 0}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolvePolarParameters: {r: 0.5, g: 0.5, b: 1, a: 0}
+    - _DistortionPolarParameters: {r: 0.5, g: 0.5, b: 1, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MaskColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MaskPolarParameters: {r: 0.5, g: 0.5, b: 1, a: 0}
+    - _PolarParameters: {r: 0.5, g: 0.5, b: 1, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

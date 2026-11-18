@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ZivenSDKDll.Editor</name>
+    </assembly>
+    <members>
+        <member name="T:ZivenSDK.Content.AreaBoundaryAutoHandler">
+            <summary>
+            【优化版】AreaBoundary 自动化处理器
+            功能：挂载自动创建LineRenderer，删除自动清理子物体
+            优化：无每帧检测、无GC、无频繁Find、无冗余操作
+            </summary>
+        </member>
+        <member name="M:ZivenSDK.Content.AreaBoundaryAutoHandler.OnComponentAdded(UnityEngine.Component)">
+            <summary>
+            挂载 AreaBoundary 时自动创建 LineRenderer
+            </summary>
+        </member>
+        <member name="M:ZivenSDK.Content.AreaBoundaryAutoHandler.CreateLineRenderer(ZivenSDK.Content.AreaBoundary,System.String,UnityEngine.LineRenderer@)">
+            <summary>
+            创建 LineRenderer 子物体（复用已有，不重复创建）
+            </summary>
+        </member>
+        <member name="M:ZivenSDK.Content.Editor.AreaBoundaryEditor.UpdateOrderFromParentIndex">
+            <summary>
+            从父物体索引更新Order值
+            </summary>
+        </member>
+        <member name="T:ZivenSDK.Content.Editor.BuildPkgTool">
+            <summary>
+            版本构建工具（移植自 TexaXRFramework BuildPkgTool 并适配优化）
+            一站式出包：选择构建平台 → 设置输出目录 → 填写版本号 → 一键构建
+            </summary>
+        </member>
+        <member name="P:ZivenSDK.Content.Editor.BuildPkgTool.BuildPath">
+            <summary>当前输出根目录（未设置为空串）</summary>
+        </member>
+        <member name="M:ZivenSDK.Content.Editor.BuildPkgTool.RefreshData">
+            <summary>
+            刷新缓存数据（窗口打开时调用）
+            </summary>
+        </member>
+        <member name="M:ZivenSDK.Content.Editor.BuildPkgTool.RefreshSupportedTargets">
+            <summary>
+            收集本机支持的构建平台（过滤 NoTarget / Unknown 分组 / 未安装模块的平台）
+            </summary>
+        </member>
+        <member name="M:ZivenSDK.Content.Editor.BuildPkgTool.Build(System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            一键构建：校验配置 → 写回版本号 → BuildPipeline 出包 → 提示结果。
+            参数为空时回退读取持久化配置（供 delayCall 等无界面上下文调用）
+            </summary>
+        </member>
+        <member name="M:ZivenSDK.Content.Editor.BuildPkgTool.DrawPlatformSection">
+            <summary>构建平台区块</summary>
+        </member>
+        <member name="M:ZivenSDK.Content.Editor.BuildPkgTool.DrawPathSection">
+            <summary>输出目录区块</summary>
+        </member>
+        <member name="M:ZivenSDK.Content.Editor.BuildPkgTool.DrawPackageTypeSection">
+            <summary>包型区块（发布环境 × 运行模式）</summary>
+        </member>
+        <member name="M:ZivenSDK.Content.Editor.BuildPkgTool.DrawVersionSection">
+            <summary>版本信息区块</summary>
+        </member>
+        <member name="M:ZivenSDK.Content.Editor.BuildPkgTool.DrawBuildSection">
+            <summary>开始构建区块</summary>
+        </member>
+        <member name="T:ZivenSDK.Content.Editor.BuildPkgToolWindow">
+            <summary>
+            版本构建设置窗口
+            </summary>
+        </member>
+        <member name="T:ZivenSDK.Content.Editor.ZivenEditorPrefs">
+            <summary>
+            按工程隔离的 EditorPrefs 封装（key 叠加工程路径哈希，多工程共用本机互不串扰）
+            </summary>
+        </member>
+        <member name="T:ZivenSDK.Content.CommandLineParamEditorWindow">
+            <summary>
+            启动参数编辑器窗口。
+            </summary>
+        </member>
+        <member name="M:ZivenSDK.Content.CreateChapterAreaConfigWindow.RefreshLayoutProfiles">
+            <summary>
+            扫描 场景布局 目录下的方案文件，并回读 ContentConfig 中当前选中的方案。
+            </summary>
+        </member>
+        <member name="M:ZivenSDK.Content.CreateChapterAreaConfigWindow.IsSelectedProfileFileExists">
+            <summary>
+            当前选中的布局方案文件是否存在。
+            </summary>
+        </member>
+        <member name="M:ZivenSDK.Content.CreateChapterAreaConfigWindow.SaveLayoutProfileIdToContentConfig(System.String)">
+            <summary>
+            将布局方案 ID 写入 ContentConfig.json（定向替换，不动章节数据）。
+            </summary>
+        </member>
+        <member name="M:ZivenSDK.Content.CreateChapterAreaConfigWindow.SaveLayoutEnabledToContentConfig(System.Boolean)">
+            <summary>
+            将布局启用开关写入 ContentConfig.json（定向替换，不动其他字段）。
+            ContentConfig.json 不存在时不建文件，等「导出整体内容配置数据」时一并写入。
+            </summary>
+        </member>
+        <member name="M:ZivenSDK.Content.CreateChapterAreaConfigWindow.RefreshConfig">
+            <summary>
+            从场景重新导入章节配置：JSON 不存在则生成，场景比 JSON 新则重新导出，无变化则跳过；
+            结束后重新读取磁盘数据刷新窗口显示。
+            </summary>
+        </member>
+        <member name="T:ZivenSDK.Content.EnumNameDrawer">
+            <summary>
+            枚举自定义名称属性绘制器
+            功能：让枚举在 Inspector 显示自定义名称
+            </summary>
+        </member>
+        <member name="M:ZivenSDK.Content.EnumNameDrawer.DrawEnum(UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent)">
+            <summary>
+            重新绘制枚举类型属性
+            </summary>
+            <param name="position"></param>
+            <param name="property"></param>
+            <param name="label"></param>
+        </member>
+        <member name="M:ZivenSDK.Content.SceneLayoutEditorWindow.EnsureStyles">
+            <summary>
+            侧栏统一样式：分组标题（高亮加粗）、强调按钮（加高加粗）、删除按钮（红色 ×）。
+            </summary>
+        </member>
+        <member name="M:ZivenSDK.Content.SceneLayoutEditorWindow.RestoreScenePosition(ZivenSDK.Content.SceneLayoutRecord)">
+            <summary>
+            把当前场景的位姿恢复为磁盘上已保存方案中的值（丢弃该场景的未保存修改，可撤销）。
+            </summary>
+        </member>
+        <member name="M:ZivenSDK.Content.SceneLayoutEditorWindow.LoadScenePositionFromScene(ZivenSDK.Content.SceneLayoutRecord)">
+            <summary>
+            读取场景中 ChapterFlowController 的实际位姿写回当前布局记录；
+            场景未打开时按 Build Settings 路径临时 Additive 打开，读完即关。
+            </summary>
+        </member>
+        <member name="M:ZivenSDK.Content.SceneLayoutEditorWindow.IsChapterDataUpToDate(System.String)">
+            <summary>
+            章节 JSON 存在且写入时间不早于场景文件修改时间，视为数据已最新，无需重新导出。
+            </summary>
+        </member>
+        <member name="M:ZivenSDK.Content.SceneLayoutEditorWindow.DrawProfileDropdown">
+            <summary>
+            布局方案下拉选择：列出 场景布局 目录下已有方案，切换前做脏检查防丢数据；
+            新建方案通过弹窗输入新 ID。
+            </summary>
+        </member>
+        <member name="T:ZivenSDK.Content.SceneLayoutEditorWindow.ProfileIdInputDialog">
+            <summary>
+            新建方案时的 ID 输入对话框（校验字符规则，重名时提示覆盖）。
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,23 @@
+{
+    "name": "TexaXRFramework.Core",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f65900c67aa97d04599a94484b563773",
+        "GUID:bc1617d5f55a04f4c9eb2be9fba4afcd",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9",
+        "GUID:e189dc81afe7ad741ba9aa089172f700",
+        "GUID:f34d393b8d26cb44d9a77c73186b30d0",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:df380645f10b7bc4b97d4f5eb6303d95"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

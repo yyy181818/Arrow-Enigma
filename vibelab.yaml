@@ -1,0 +1,35 @@
+# PICO VibeLab 发布配置
+# 流程：pico-release-cli-cn init → add → git push → commit → push --wait
+# add 会把 app.id 写回这里；素材路径相对于本文件所在目录。
+
+app:
+  id: ""                          # 由 add 自动写入
+  name: Arrow Enigma
+  slogan: 在气球与线索之间，找出你是谁
+  description: |
+    VR 解谜体验：用手上的巨弩打爆气球，收集六条线索，
+    在倒计时结束前从六份简历里找出真正的自己。
+    支持手部追踪与手柄两种操作方式。
+  tags:
+    - ""                          # TODO: 填 1 个平台预设内容标签
+  category: game
+  icon: assets/icon.png           # 1024x1024，<=4MB
+  landscape: assets/landscape.png # 2560x1440，<=5MB
+  detail_images:                  # 1~7 张，2560x1440，<=5MB
+    - assets/detail-1.png
+  videos:                         # 最多 3 个，MP4 <=100MB
+    - file: assets/demo.mp4
+      cover: assets/demo-cover.png
+
+version:
+  name: 1.0.0
+  notes: 首个版本
+
+build:
+  repo_url: https://github.com/yyy181818/Arrow-Enigma.git
+  repo_visibility: public         # public | private
+  tech_stack: unity
+  features:                       # 说明你的应用用到哪些能力
+    - hand_tracking
+    - controller_support
+  teammates: []

@@ -1,0 +1,17 @@
+{
+  "name": "AmplifyShaderEditor",
+  "references": [],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": true,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "VIBELAB_DISABLE_TOOL_ASM"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

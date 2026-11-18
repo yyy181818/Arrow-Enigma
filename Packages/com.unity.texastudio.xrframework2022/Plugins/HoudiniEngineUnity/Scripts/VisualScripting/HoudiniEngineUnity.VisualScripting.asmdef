@@ -1,0 +1,27 @@
+{
+  "name": "HoudiniEngineUnity.VisualScripting",
+  "rootNamespace": "",
+  "references": [
+    "Unity.VisualScripting.Core",
+    "Unity.VisualScripting.Flow",
+    "Unity.VisualScripting.State",
+    "HoudiniEngineUnity"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [
+    "VIBELAB_DISABLE_TOOL_ASM"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.unity.visualscripting",
+      "expression": "1.5.0",
+      "define": "HAS_VISUALSCRIPTING"
+    }
+  ],
+  "noEngineReferences": false
+}

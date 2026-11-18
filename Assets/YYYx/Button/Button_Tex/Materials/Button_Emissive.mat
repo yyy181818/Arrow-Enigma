@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Button_Emissive
+  m_Shader: {fileID: 4800000, guid: e6c477b5e2cbae448bd8f9d52f4e4036, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _EMISSION
+  - _NORMALMAP
+  - _OCCLUSIONMAP
+  - _RECEIVE_SHADOWS_OFF
+  - _SHADINGMODEL_LIT
+  - _TEXTUREMODE_MRO
+  m_InvalidKeywords:
+  - _ENABLESAMPLERGB_ON
+  - _PLANARSHADOWMODE_GLOBAL
+  - _TRANSPARENTSHADOWS_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses:
+  - UniversalForwardOnly
+  - SRPDEFAULTUNLIT
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 56097f4b2d19536459aa27d7aac5dd80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 5816589be8c65124eb532801ef18fc19, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CombineMap:
+        m_Texture: {fileID: 2800000, guid: ab47a204e06c10042b196c52f9c8f9a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CutoutBaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CutoutMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 56097f4b2d19536459aa27d7aac5dd80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainEdgePattern:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondEdgePattern:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _2SidesSecondEdge: 0
+    - _Alpha: 1
+    - _AlphaChannel: 0
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _BaseColorStrength: 1
+    - _Brightness: 1
+    - _BumpScale: 1
+    - _ClearCoat: 0
+    - _Contrast: 1
+    - _CullMode: 2
+    - _Cutoff: 0.5
+    - _DirectStrength: 1
+    - _DissolveAmount: 0
+    - _DissolveAxis: 4
+    - _DissolveEdgeWidth: 0.01
+    - _DissolveEnable: 0
+    - _DissolveMaxAmount: 1
+    - _DissolveMinAmount: -1
+    - _DstBlend: 0
+    - _EdgeIntensity: 1
+    - _EdgeSize: 0.5
+    - _EdgesAffect: 2
+    - _EnableAcesToneMapping: 0
+    - _EnableClearCoat: 0
+    - _EnableClipShadow: 0
+    - _EnableColorProcessing: 0
+    - _EnableHue: 0
+    - _EnableMainEdgePattern: 0
+    - _EnableSampleRGB: 1
+    - _EnableSecondEdgePattern: 0
+    - _EnableSmoothNormals: 0
+    - _EnableSpecular: 0
+    - _EnvironmentReflections: 1
+    - _GlobalHeight: -1
+    - _GuideAffectsEdgesBlending: 0
+    - _GuideStrength: 1
+    - _Hue: 0
+    - _InDirectStrength: 1
+    - _Invert: 0
+    - _InvertDissolveMinMax: 0
+    - _Iridescence: 0
+    - _IridescenceThickness: 1
+    - _LightMapIntensity: 1
+    - _LocalHeight: 1
+    - _MainColorMode: 1
+    - _MainEdgePatternSpeed: 0.1
+    - _MainEdgePatternStrength: 1
+    - _MainEdgePatternTiling: 1
+    - _MaskType: 0
+    - _Metallic: 0
+    - _NoiseSpeed: 0.05
+    - _NoiseStrength: 1
+    - _NoiseWidth: 1
+    - _OcclusionStrength: 1
+    - _OutlineWidth: 0.01
+    - _PlanarShadowEnable: 0
+    - _PlanarShadowMode: 0
+    - _QueueOffset: 0
+    - _Radius: 1
+    - _ReceiveShadows: 0
+    - _RimEnable: 0
+    - _RimPower: 1
+    - _RimScale: 1
+    - _Roughness: 0.5
+    - _SampleMode: 0
+    - _Saturation: 1
+    - _SecondColorMode: 1
+    - _SecondEdgePatternSpeed: 0.1
+    - _SecondEdgePatternStrength: 1
+    - _SecondEdgePatternTiling: 1
+    - _SecondEdgeWidth: 0.01
+    - _ShadingModel: 0
+    - _ShadowFalloff: 0.1
+    - _ShadowIntensity: 5
+    - _ShadowOffset: 1
+    - _SmoothEdge: 2
+    - _SmoothstepEdge: 1.5
+    - _SmoothstepIntensity: 20
+    - _SmoothstepMax: 1
+    - _SmoothstepMin: 0
+    - _SpecularHighlights: 1
+    - _SpecularIntensity: 1
+    - _SpecularPower: 1
+    - _SphereMaskEnable: 0
+    - _SrcBlend: 1
+    - _StencilComp: 8
+    - _StencilFail: 0
+    - _StencilPass: 0
+    - _StencilRef: 0
+    - _StencilZFail: 0
+    - _Surface: 0
+    - _TextureMode: 1
+    - _ToonEnable: 0
+    - _TransparentShadows: 0
+    - _UVTilingTriplanar: 0.5
+    - _UseTextureMask: 0
+    - _UseTriplanar: 0
+    - _ZTest: 4
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EdgeColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionChannel: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 2, g: 2, b: 2, a: 0}
+    - _MainEdgeColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondEdgeColor1: {r: 1, g: 1, b: 1, a: 1}
+    - _SecondEdgeColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TillingOffset: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

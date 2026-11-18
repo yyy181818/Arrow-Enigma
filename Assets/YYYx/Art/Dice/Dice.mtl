@@ -1,0 +1,8 @@
+newmtl DiceMat
+Ka 0.100 0.000 0.020
+Kd 0.780 0.100 0.210
+Ks 0.900 0.500 0.550
+Ns 180.0
+d 0.850
+illum 2
+map_Kd Dice_BaseColor.png

@@ -1,0 +1,21 @@
+{
+  "name": "com.unity.texastudio.xrframework2022",
+  "displayName": "Texa XR Framework2022",
+  "version": "0.3.5",
+  "unity": "2022.3",
+  "description": "深湖科技大空间SDK",
+  "dependencies": {
+    "com.unity.xr.hands": "1.5.0",
+    "com.unity.xr.management": "4.4.1",
+    "com.unity.xr.interaction.toolkit": "2.5.4",
+    "com.unity.xr.core-utils": "2.2.3"
+  },
+  "samples": [
+    {
+      "displayName": "Sample Scene",
+      "description": "",
+      "path": "Samples~/SampleScene"
+    }
+  ],
+  "_fingerprint": "668a166a1ee68b08355a3c10f7df51581aeb9681"
+}
